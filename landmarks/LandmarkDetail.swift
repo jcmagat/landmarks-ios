@@ -14,8 +14,8 @@ struct LandmarkDetail: View {
     var body: some View {
         VStack {
             MapView(coordinate: landmark.locationCoordinate)
-                .frame(height: 300)
                 .edgesIgnoringSafeArea(.top)
+                .frame(height: 300)
             
             CircleImage(image: landmark.image)
                 .offset(y: -130)
