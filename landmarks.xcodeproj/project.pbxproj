@@ -11,6 +11,7 @@
 		492BCFC2251FDD6800966F01 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492BCFC0251FDD6800966F01 /* Data.swift */; };
 		492BCFDF2520030000966F01 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492BCFDE2520030000966F01 /* LandmarkRow.swift */; };
 		493AA6CF25214D8C005B9EEE /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493AA6CE25214D8C005B9EEE /* HexagonParameters.swift */; };
+		493AA6D12521546F005B9EEE /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493AA6D02521546F005B9EEE /* Badge.swift */; };
 		493C13F925204F2B0017807F /* stmarylake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 493C13EC25204F2A0017807F /* stmarylake.jpg */; };
 		493C13FA25204F2B0017807F /* charleyrivers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 493C13ED25204F2A0017807F /* charleyrivers.jpg */; };
 		493C13FB25204F2B0017807F /* umbagog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 493C13EE25204F2A0017807F /* umbagog.jpg */; };
@@ -41,6 +42,7 @@
 		492BCFC0251FDD6800966F01 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		492BCFDE2520030000966F01 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		493AA6CE25214D8C005B9EEE /* HexagonParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
+		493AA6D02521546F005B9EEE /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 		493C13EC25204F2A0017807F /* stmarylake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stmarylake.jpg; sourceTree = "<group>"; };
 		493C13ED25204F2A0017807F /* charleyrivers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = charleyrivers.jpg; sourceTree = "<group>"; };
 		493C13EE25204F2A0017807F /* umbagog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = umbagog.jpg; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				495CAAC3251C4F16007D43B9 /* CircleImage.swift */,
 				495CAAC7251C5119007D43B9 /* MapView.swift */,
 				492BCFDE2520030000966F01 /* LandmarkRow.swift */,
+				493AA6D02521546F005B9EEE /* Badge.swift */,
 			);
 			path = "Supporting Views";
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				493AA6CF25214D8C005B9EEE /* HexagonParameters.swift in Sources */,
+				493AA6D12521546F005B9EEE /* Badge.swift in Sources */,
 				492BCFC2251FDD6800966F01 /* Data.swift in Sources */,
 				495CAAB0251C4973007D43B9 /* AppDelegate.swift in Sources */,
 				495CAAC4251C4F16007D43B9 /* CircleImage.swift in Sources */,
