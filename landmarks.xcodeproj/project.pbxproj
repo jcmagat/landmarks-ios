@@ -35,6 +35,8 @@
 		495CAABC251C4974007D43B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 495CAABA251C4974007D43B9 /* LaunchScreen.storyboard */; };
 		495CAAC4251C4F16007D43B9 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495CAAC3251C4F16007D43B9 /* CircleImage.swift */; };
 		495CAAC8251C5119007D43B9 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495CAAC7251C5119007D43B9 /* MapView.swift */; };
+		49EA86CD2522AB4C00FBA363 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EA86CC2522AB4C00FBA363 /* Badge.swift */; };
+		49EA86CF2522ABCD00FBA363 /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EA86CE2522ABCD00FBA363 /* BadgeSymbol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +70,8 @@
 		495CAABD251C4974007D43B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		495CAAC3251C4F16007D43B9 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		495CAAC7251C5119007D43B9 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		49EA86CC2522AB4C00FBA363 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
+		49EA86CE2522ABCD00FBA363 /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,8 @@
 				495CAAC7251C5119007D43B9 /* MapView.swift */,
 				492BCFDE2520030000966F01 /* LandmarkRow.swift */,
 				493AA6D02521546F005B9EEE /* BadgeBackground.swift */,
+				49EA86CE2522ABCD00FBA363 /* BadgeSymbol.swift */,
+				49EA86CC2522AB4C00FBA363 /* Badge.swift */,
 			);
 			path = "Supporting Views";
 			sourceTree = "<group>";
@@ -256,10 +262,12 @@
 				495CAAC4251C4F16007D43B9 /* CircleImage.swift in Sources */,
 				495CAAC8251C5119007D43B9 /* MapView.swift in Sources */,
 				494A6C312520091B00DE4963 /* LandmarkList.swift in Sources */,
+				49EA86CF2522ABCD00FBA363 /* BadgeSymbol.swift in Sources */,
 				495CAAB2251C4973007D43B9 /* SceneDelegate.swift in Sources */,
 				495CAAB4251C4973007D43B9 /* LandmarkDetail.swift in Sources */,
 				492BCFDF2520030000966F01 /* LandmarkRow.swift in Sources */,
 				493C1407252060C50017807F /* UserData.swift in Sources */,
+				49EA86CD2522AB4C00FBA363 /* Badge.swift in Sources */,
 				492BCFC1251FDD6800966F01 /* Landmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

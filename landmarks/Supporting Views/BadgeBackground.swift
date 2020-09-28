@@ -58,7 +58,7 @@ struct BadgeBackground: View {
     }
 }
 
-struct Badge_Previews: PreviewProvider {
+struct BadgeBackground_Previews: PreviewProvider {
     static var previews: some View {
         BadgeBackground()
     }
